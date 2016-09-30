@@ -71,7 +71,7 @@ background: linear-gradient(to top left, yellow 49%, transparent 49.5%, transpar
 .x3, .l3 {
     left: 350px;
     opacity: 0.9;
-    animation: moveclouds 40s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    animation: moveclouds 43s linear infinite, sideWays 6s ease-in-out infinite alternate;
 }
 
 .x4, .l4 {
@@ -97,9 +97,9 @@ background: linear-gradient(to top left, yellow 49%, transparent 49.5%, transpar
 
 @keyframes sideWays {
     0% {
-        margin-left:0px;
+        margin-left:10px;
     }
     100% {
-        margin-left:100px;
+        margin-left:300px;
     }
 }
